@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 <%inherit file="layout.mako"/>
 
-<h1>Task's List</h1>
+<h1>Task's List Video</h1>
 
 <ul id="tasks">
 % if tasks:
