@@ -99,12 +99,16 @@ if __name__ == '__main__':
     settings['reload_all'] = True
     settings['debug_all'] = True
     settings['db'] = os.path.join(here, 'tasks.db')
+    settings['mako.directories'] = os.path.join(here, 'templates')
 
     # session factory
     session_factory = UnencryptedCookieSessionFactoryConfig('itsaseekreet')
 
     # configuration setup
     config = Configurator(settings=settings, session_factory=session_factory)
+
+    # add mako templating
+    config.include('pyramid_mako')
 
     # scan for @view_config and @subscriber decorators
     config.scan()
