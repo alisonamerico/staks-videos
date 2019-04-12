@@ -8,6 +8,7 @@ flake8 = "*"
 
 [packages]
 pyramid = "*"
+pyramid-mako = "*"
 
 [requires]
 python_version = "3.7"

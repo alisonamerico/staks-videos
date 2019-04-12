@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="utf-8">
-  <title>Pyramid Task's List Tutorial</title>
+  <title>Pyramid Task's List Video</title>
   <meta name="author" content="Pylons Project">
   <link rel="shortcut icon" href="/static/favicon.ico">
   <link rel="stylesheet" href="/static/style.css">

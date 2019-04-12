@@ -11,21 +11,25 @@ from pyramid.events import ApplicationCreated
 from pyramid.events import NewRequest
 from pyramid.events import subscriber
 from pyramid.httpexceptions import HTTPFound
-from pyramid.session import UnencryptedCookieSessionFactoryConfig
+from pyramid.session import SignedCookieSessionFactory
 from pyramid.view import view_config
 
 from wsgiref.simple_server import make_server
 
+
 """
 Configures the logging and the current working directory path
 """
+
 logging.basicConfig()
 log = logging.getLogger(__file__)
 
 here = os.path.dirname(os.path.abspath(__file__))
 
 
-# views
+"""
+views
+"""
 @view_config(route_name='list', renderer='list.mako')
 def list_view(request):
     rs = request.db.execute('select id, name from tasks where closed = 0')
@@ -64,6 +68,9 @@ def notfound_view(request):
     return {}
 
 
+"""
+subscribers
+"""
 @subscriber(NewRequest)
 def new_request_subscriber(event):
     request = event.request
@@ -89,11 +96,9 @@ def application_created_subscriber(event):
 
 """
 Configure the Pyramid application, establishing rudimentary sessions,
-we will get the WSGI application to run the local server.
+where will get the WSGI application to run the local server.
 """
-
 if __name__ == '__main__':
-
     # configuration settings
     settings = {}
     settings['reload_all'] = True
@@ -102,13 +107,21 @@ if __name__ == '__main__':
     settings['mako.directories'] = os.path.join(here, 'templates')
 
     # session factory
-    session_factory = UnencryptedCookieSessionFactoryConfig('itsaseekreet')
+    session_factory = SignedCookieSessionFactory('itsaseekreet')
 
     # configuration setup
     config = Configurator(settings=settings, session_factory=session_factory)
 
     # add mako templating
     config.include('pyramid_mako')
+
+    # routes setup
+    config.add_route('list', '/')
+    config.add_route('new', '/new')
+    config.add_route('close', '/close/{id}')
+
+    # static view setup
+    config.add_static_view('static', os.path.join(here, 'static'))
 
     # scan for @view_config and @subscriber decorators
     config.scan()
@@ -117,8 +130,3 @@ if __name__ == '__main__':
     app = config.make_wsgi_app()
     server = make_server('0.0.0.0', 8080, app)
     server.serve_forever()
-
-    # routes setup
-    config.add_route('list', '/')
-    config.add_route('new', '/new')
-    config.add_route('close', '/close/{id}')
