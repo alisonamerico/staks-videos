@@ -1,0 +1,3 @@
+[run]
+source = tasks
+omit = tasks/test*
