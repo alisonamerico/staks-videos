@@ -5,10 +5,20 @@ verify_ssl = true
 
 [dev-packages]
 flake8 = "*"
+testapp = "*"
 
 [packages]
 pyramid = "*"
 pyramid-mako = "*"
+cookiecutter = "*"
+pyramid-mongodb = "*"
+paste = "*"
+grinder-webtest = "*"
+pip = "*"
+setuptools = "*"
+waitress = "*"
+pymongo = "*"
+pyramid-mongoengine = "*"
 
 [requires]
 python_version = "3.7"
