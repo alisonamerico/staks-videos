@@ -1,6 +1,5 @@
 from pyramid.config import Configurator
 
-
 try:
     # for python 2
     from urlparse import urlparse
@@ -10,6 +9,7 @@ except ImportError:
 
 from gridfs import GridFS
 from pymongo import MongoClient
+from mongoengine import connect
 
 
 def main(global_config, **settings):
@@ -28,8 +28,6 @@ def main(global_config, **settings):
             db.authenticate(db_url.username, db_url.password)
         return db
 
-        config.add_connection_database()
-
     def add_fs(request):
         return GridFS(request.db)
 
@@ -39,7 +37,7 @@ def main(global_config, **settings):
     config.include("pyramid_mongoengine")
     config.include('pyramid_jinja2')
     config.include('.routes')
-
+    connect('mongodb://user:password@localhost:27017/video')
     # other routes and more config...
-    config.scan('.views')
+    config.scan('tasks')
     return config.make_wsgi_app()

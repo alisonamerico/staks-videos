@@ -1,4 +1,5 @@
 from pyramid.view import view_config
+from tasks.models import Task
 
 
 class TaskView(object):
@@ -8,4 +9,5 @@ class TaskView(object):
 
     @view_config(route_name='home', renderer='../templates/mytemplate.jinja2')
     def home(self):
-        return {'tasks': 'tasks'}
+        tasks = Task.objects.first()
+        return {'tasks': tasks}
