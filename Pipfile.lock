@@ -232,10 +232,10 @@
         },
         "pyramid-mako": {
             "hashes": [
-                "sha256:6da0987b9874cf53e72139624665a73965bbd7fbde504d1753e4231ce916f3a1"
+                "sha256:0066c863441f1c3ddea60cee1ccc50d00a91a317a8052ca44131da1a12a840e2",
+                "sha256:76104592d292b6974cf7080aa52405c51f396a621535f01e274d7fe546e85a43"
             ],
-            "index": "pypi",
-            "version": "==1.0.2"
+            "version": "==1.1.0"
         },
         "pyramid-mongodb": {
             "hashes": [
