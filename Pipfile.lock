@@ -74,10 +74,10 @@
         },
         "hupper": {
             "hashes": [
-                "sha256:cb33b8f1de73a3566f4bd7decc620d0c6de7d7da9cdf176b6ad310fe037d6106",
-                "sha256:fe8febd68cec7fbed174fcbb0b42c427f96c8a7471c1cd4999fc698dd8dc6c34"
+                "sha256:2519cf5f8cae581c44594c7b8eaff1219c413f815320b67e5da1f5be1969894f",
+                "sha256:afd4e7beedc7417fed12cb2e15a21610c73cb08821c7f09aa926be24d4038dae"
             ],
-            "version": "==1.6.1"
+            "version": "==1.9"
         },
         "idna": {
             "hashes": [
