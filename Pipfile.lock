@@ -18,10 +18,10 @@
     "default": {
         "arrow": {
             "hashes": [
-                "sha256:3397e5448952e18e1295bf047014659effa5ae8da6a5371d37ff0ddc46fa6872",
-                "sha256:6f54d9f016c0b7811fac9fb8c2c7fa7421d80c54dbdd75ffb12913c55db60b8a"
+                "sha256:742c0086e6a5c033bb251bb675b82867aca7cf6bc19e635f8a34eeefccaac372",
+                "sha256:a76923c6ced14f9f2f272f572bfb98e2f8e22b62bc4d6f88acfb4aea8161c6f9"
             ],
-            "version": "==0.13.1"
+            "version": "==0.15.3"
         },
         "binaryornot": {
             "hashes": [
