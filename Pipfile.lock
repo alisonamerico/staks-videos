@@ -288,10 +288,10 @@
         },
         "venusian": {
             "hashes": [
-                "sha256:2f2d077a1eedc3fda40425f65687c8c494da7e83d7c23bc2c4d1a40eb3ca5b6d",
-                "sha256:64ec8285b80b110d0ae5db4280e90e31848a59db98db1aba4d7d46f48ce91e3e"
+                "sha256:406ef52f15b99badbb0dd6377518792f86b2c4ca3ea724c266422648083508d3",
+                "sha256:98404617c7bb3ee2fe04685ab6aa04828ec2d65d4b152ca506ee18a936810a95"
             ],
-            "version": "==1.2.0"
+            "version": "==2.0.0"
         },
         "waitress": {
             "hashes": [
