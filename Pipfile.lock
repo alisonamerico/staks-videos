@@ -148,11 +148,10 @@
         },
         "paste": {
             "hashes": [
-                "sha256:c4f13993e6ab4a38602cef298d876552083e8215685bb45abda7113f0dd48117",
-                "sha256:e5950fde9e493c15e1efd962b13d4c27d78631e3495c3a3b629f66933a1983c6"
+                "sha256:17751a6e0d0e38054ff97e4b6efe9870c09dcb72fbe7630c1a31a6aeb266eebb",
+                "sha256:8bdc7f6be907eed7cd63868c79d88af2b87d02d840fb5acfc93d4bda572b1567"
             ],
-            "index": "pypi",
-            "version": "==3.0.8"
+            "version": "==3.2.3"
         },
         "pastedeploy": {
             "hashes": [
