@@ -295,11 +295,10 @@
         },
         "waitress": {
             "hashes": [
-                "sha256:c369e238bd81ef7d61f04825f06f107c42094de60d13d8de8e71952c7c683dfe",
-                "sha256:de0dbd36dec695d90ac8e7464998f28c7e968a2dde3c37b06bb0a714df4dad62"
+                "sha256:b3b6450106b65bfcbefce5940fff23240305db86683cbf4e524af199b514ba61",
+                "sha256:edbb927a6f7c43d4fde35740786a30c180c1623d70a7ad5fd1d1f4adacc54468"
             ],
-            "index": "pypi",
-            "version": "==1.2.1"
+            "version": "==1.4.0"
         },
         "webob": {
             "hashes": [
