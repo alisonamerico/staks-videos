@@ -141,10 +141,10 @@
         },
         "mongoengine": {
             "hashes": [
-                "sha256:8c2494dac7d727e67cd3c75ba086c02744bcdc9fe4d47b9aeff1fbe8c7c48724",
-                "sha256:cab88831a0ee587765f87a5cb83f5d3a478ea47cc90cfaff8b8c620f52ab5d09"
+                "sha256:65f6cc48cbaac5ecd518dcec725d9c312286796510a9d93a4388a53811a294b9",
+                "sha256:6796df3f7458fb1643812c0b58ccad201da0af935ddd4159604c5ca769b9abb6"
             ],
-            "version": "==0.17.0"
+            "version": "==0.19.1"
         },
         "paste": {
             "hashes": [
