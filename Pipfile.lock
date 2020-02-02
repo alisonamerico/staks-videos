@@ -156,10 +156,10 @@
         },
         "pastedeploy": {
             "hashes": [
-                "sha256:d423fb9d51fdcf853aa4ff43ac7ec469b643ea19590f67488122d6d0d772350a",
-                "sha256:fe53697ec2754703096b75d0ba29112b0590b4ce46726fe4f9408fd006e4eefc"
+                "sha256:bc6578735a32c77435a3e0769426983d3df6dc53a7229290c495ec10aefb81a5",
+                "sha256:e7559878b6e92023041484be9bcb6d767cf4492fc3de7257a5dae76a7cc11a9b"
             ],
-            "version": "==2.0.1"
+            "version": "==2.1.0"
         },
         "plaster": {
             "hashes": [
