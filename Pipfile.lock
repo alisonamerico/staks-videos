@@ -148,11 +148,10 @@
         },
         "mongoengine": {
             "hashes": [
-                "sha256:6e127f45f71c2bc5e72461ec297a0c20f04c3ee0bf6dd869e336226e325db6ef",
-                "sha256:db9e5d587e5d74e52851e0e4a53fd744725bfa9918ae6070139f5ba9c62c6edf"
+                "sha256:72559546dc9cef7f96850bb8b3a005d3537f9a23a2a27ebf71e1f0c71a83f716",
+                "sha256:9f66c08e2b045bf23a2ca26813a510ec3beb6253f631779f9110555fd8f5a283"
             ],
-            "markers": "python_version >= '3.5'",
-            "version": "==0.20.0"
+            "version": "==0.22.0"
         },
         "paste": {
             "hashes": [
