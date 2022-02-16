@@ -303,9 +303,10 @@
         },
         "python-slugify": {
             "hashes": [
-                "sha256:69a517766e00c1268e5bbfc0d010a0a8508de0b18d30ad5a1ff357f8ae724270"
+                "sha256:43bb8125a2f6d8f8f6de05c34cfc7b36102d17ae13ba0edb2a6a479ba37ca66e",
+                "sha256:8b15f9e893b0e7853f804b95763101c0be17f15d96e99647f534b3fdb5d8992a"
             ],
-            "version": "==4.0.1"
+            "version": "==6.0.0"
         },
         "requests": {
             "hashes": [
