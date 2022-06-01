@@ -55,11 +55,10 @@
         },
         "cookiecutter": {
             "hashes": [
-                "sha256:430eb882d028afb6102c084bab6cf41f6559a77ce9b18dc6802e3bc0cc5f4a30",
-                "sha256:efb6b2d4780feda8908a873e38f0e61778c23f6a2ea58215723bcceb5b515dac"
+                "sha256:9f3ab027cec4f70916e28f03470bdb41e637a3ad354b4d65c765d93aad160022",
+                "sha256:f3982be8d9c53dac1261864013fdec7f83afd2e42ede6f6dd069c5e149c540d5"
             ],
-            "index": "pypi",
-            "version": "==1.7.2"
+            "version": "==2.1.1"
         },
         "grinder-webtest": {
             "hashes": [
