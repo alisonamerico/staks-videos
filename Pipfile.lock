@@ -155,12 +155,8 @@
             "version": "==0.20.0"
         },
         "paste": {
-            "hashes": [
-                "sha256:1b095c42dc91d426f3ae85101796b14d265887f8f36f3aad143a5f29effdc39d",
-                "sha256:8e08200a570f7e29dfafd4eea0e1b38a6193cfda6446bb515db74250b632c53b"
-            ],
-            "index": "pypi",
-            "version": "==3.5.0"
+            "hashes": [],
+            "version": "==3.5.2"
         },
         "pastedeploy": {
             "hashes": [
