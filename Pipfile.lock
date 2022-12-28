@@ -147,12 +147,8 @@
             "version": "==1.1.1"
         },
         "mongoengine": {
-            "hashes": [
-                "sha256:6e127f45f71c2bc5e72461ec297a0c20f04c3ee0bf6dd869e336226e325db6ef",
-                "sha256:db9e5d587e5d74e52851e0e4a53fd744725bfa9918ae6070139f5ba9c62c6edf"
-            ],
-            "markers": "python_version >= '3.5'",
-            "version": "==0.20.0"
+            "hashes": [],
+            "version": "==0.25.0"
         },
         "paste": {
             "hashes": [
