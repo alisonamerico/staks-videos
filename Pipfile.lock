@@ -370,11 +370,8 @@
             "version": "==1.8.6"
         },
         "zope.deprecation": {
-            "hashes": [
-                "sha256:0d453338f04bacf91bbfba545d8bcdf529aa829e67b705eac8c1a7fdce66e2df",
-                "sha256:f1480b74995958b24ce37b0ef04d3663d2683e5d6debc96726eff18acf4ea113"
-            ],
-            "version": "==4.4.0"
+            "hashes": [],
+            "version": "==5.0"
         },
         "zope.interface": {
             "hashes": [
