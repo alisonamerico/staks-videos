@@ -54,12 +54,8 @@
             "version": "==7.1.2"
         },
         "cookiecutter": {
-            "hashes": [
-                "sha256:430eb882d028afb6102c084bab6cf41f6559a77ce9b18dc6802e3bc0cc5f4a30",
-                "sha256:efb6b2d4780feda8908a873e38f0e61778c23f6a2ea58215723bcceb5b515dac"
-            ],
-            "index": "pypi",
-            "version": "==1.7.2"
+            "hashes": [],
+            "version": "==2.2.2"
         },
         "grinder-webtest": {
             "hashes": [
